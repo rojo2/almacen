@@ -1,7 +1,7 @@
 {
   "name": "almacen",
   "version": "0.0.1",
-  "description": "",
+  "description": "Easy to use library to work with localStorage and sessionStorage",
   "keywords": ["localStorage","sessionStorage","storage","simple"],
   "main": "index.js",
   "repository":{
@@ -9,7 +9,7 @@
     "url": "http://github.com/rojo2/almacen"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha-phantoms test/index.html"
   },
   "contributors": [
     {
