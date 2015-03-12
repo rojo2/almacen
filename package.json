@@ -1,0 +1,30 @@
+{
+  "name": "almacen",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": ["localStorage","sessionStorage","storage","simple"],
+  "main": "index.js",
+  "repository":{
+    "type": "git",
+    "url": "http://github.com/rojo2/almacen"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "contributors": [
+    {
+      "name": "Aitor Moreno",
+      "email": "aitor@rojo2.com",
+      "url": "http://rojo2.com",
+      "hireable": true
+    }
+  ],
+  "author": "ROJO 2 <hola@rojo2.com> (http://rojo2.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "~2.2.1",
+    "mocha-phantomjs": "~3.5.3",
+    "phantomjs": "~1.9.16",
+    "chai": "~2.1.1"
+  }
+}
