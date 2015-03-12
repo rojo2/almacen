@@ -2,7 +2,7 @@
 
 ## How to use it
 
-Using [browserify](http://browserify.org) it"s easy to use it.
+Using [browserify](http://browserify.org) it's easy to use it.
 
 ```javascript
 var almacen = require("almacen");
