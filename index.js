@@ -13,12 +13,14 @@ Storage.prototype = {
   },
   get: function(name) {
     var value = this.storage.getItem(name);
-    if (value.substr(0,JSON_DATA_SCHEME.length) === JSON_DATA_SCHEME) {
-      return JSON.parse(value.substr(JSON_DATA_SCHEME.length));
-    } else if (value === 'true' || value === 'false') {
-      return value === 'true';
-    } else if (/^-?[0-9]+(\.[0-9]+)?$/.test(value)) {
-      return parseFloat(value);
+    if (value) {
+      if (value.substr(0,JSON_DATA_SCHEME.length) === JSON_DATA_SCHEME) {
+        return JSON.parse(value.substr(JSON_DATA_SCHEME.length));
+      } else if (value === 'true' || value === 'false') {
+        return value === 'true';
+      } else if (/^-?[0-9]+(\.[0-9]+)?$/.test(value)) {
+        return parseFloat(value);
+      }
     }
     return value;
   },
