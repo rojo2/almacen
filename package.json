@@ -9,7 +9,7 @@
     "url": "http://github.com/rojo2/almacen"
   },
   "scripts": {
-    "test": "mocha-phantoms test/index.html"
+    "test": "mocha-phantomjs test/index.html"
   },
   "contributors": [
     {
